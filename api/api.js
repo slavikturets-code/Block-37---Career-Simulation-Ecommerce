@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { dbMethods } from '../db/index.js';
+import { dbMethods } from '../databases/index.js';
 
 const apiRouter = Router();
 

@@ -1,6 +1,6 @@
 import express from 'express';
 import chalk from 'chalk';
-import startDB from './db/index.js';
+import startDB from './databases/index.js';
 import apiRouter from './api/api.js';
 
 const app = express();
